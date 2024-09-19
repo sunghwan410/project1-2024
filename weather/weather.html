@@ -21,28 +21,29 @@
         <div class="col-7 m-auto">
           <h1 class="display-3" id="temp"></h1>
           <strong id="weather"></strong><br> 
-          Min: <span id="min"></span>°C, Max: <span id="max"></span>°C<br> 
+          Min: <span id="min"></span>°C,s Max: <span id="max"></span>°C<br> 
           Wind: <span id="wind"></span>m/s
+          <script
+    src="https://code.jquery.com/jquery-3.7.1.js"></script>
         </div>
       </div>
     </div>
-
     도시입력
+    <input id="city" type="text" class="from-control"  placeholder="도시이름">
+    
+    
+    <label for="units">온도표시형식</label>
 
-    <input id="city" type="text" class="form-control" placeholder="도시 이름">
-    온도표시형식
-    <label for="unit">Choose a unit:</label>
-
-    <select name="unit" id="unit">
-      <option value="metric">섭씨온도</option>
-      <option value="imperial">화씨온도</option>
-      <option value="standard">절대온도K</option>
+    <select id="tformat">
+      <option value="metric">섭씨(C)</option>
+      <option value="imperial">화씨(F)</option>
+      <option value="standard" selected>절대온도(K)</option>
     </select>
     <hr>
-    <button onclick="get_weather()" class="btn btn-info">온도표시</button>
-    
+    <button onclick="get_weather()" class="btn btn-info">날씨조회</button>
+
+
     <script src="weather.js"></script>
-  
   </body>
 
 </html>
