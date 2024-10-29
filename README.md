@@ -3,7 +3,7 @@
  2024-2학기 캡스톤 프로젝트 수업
  OpenAPI를 사용한 인공지능 시스템 실습
 
-    <img src="https://ifh.cc/g/9yzjqC.jpg">
+    [URL=https://ifh.cc/v-9yzjqC][IMG]https://ifh.cc/g/9yzjqC.jpg[/IMG][/URL]
 
 
 
