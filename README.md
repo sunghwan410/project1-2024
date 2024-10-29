@@ -7,7 +7,7 @@
 
 
 
-<a href='https://ifh.cc/v-ybys4P' target='_blank'><img src='https://ifh.cc/g/ybys4P.jpg' border='0'></a>
+
 
 
 
@@ -30,9 +30,65 @@ $.ajax({
 ```
    <a href='https://ifh.cc/v-pPh9SM' target='_blank'><img src='https://ifh.cc/g/pPh9SM.png' border='0'></a>
  # openAI
-
+chatGPT API키 활용하여 질의응답
+```javascript
+  $.ajax({
+        type:"POST",
+        url: "https://api.openai.com/v1/chat/completions",
+        headers:{
+            "Authorization": "Bearer " + OPENAPI_KEY
+        },
+        data: JSON.stringify(data),
+        contentType: "application/json; charset=utf-8"
+    }).done( function(response){
+        console.log(response)
+        alert(response.choices[0].messge.content)
+    }).fail(function(error){
+        console.log(error)
+        errormsg = error.status + " : " + error.responseJSON.error.code + " - " + error.responseJSON.error.code.messages
+        alert(errormsg)
+    })
+```
+```javascript
+$.ajax({
+        type:"POST",
+        url: "https://api.openai.com/v1/images/generations",
+        headers:{
+            "Authorization": "Bearer " + OPENAPI_KEY
+        },
+        data: JSON.stringify(data),
+        contentType: "application/json; charset=utf-8"
+    }).done( function(response){
+        console.log(response)
+        // alert(response.choices[0].message.content)
+        gimage.src = response.data[0].url
+        gimage2.src = response.data[1].url
+    }).fail(function(error){
+        console.log(error)
+        errormsg = error.status + " : " + error.responseJSON.error.code + " - " + error.responseJSON.error.message
+        txtOut.value = errormsg
+    })
  # google cloud vision
+구글 API키를 이용하기
+```javascript
+ $.ajax({
+        type:"POST",
+        url:'https://vision.googleapis.com/v1/images:annotate?key=' + GOOGLE_API_KEY,
+        headers:{
+            "Accept": "application/json",
+            "Content-Type": "application/json"
+        },
+        data: JSON.stringify(data),
+        contentType: "application/json; charset=utf-8"
+    }).done( function(response){    
+        console.log(response)
 
+    }).fail(function(error){
+        console.log(error)
+
+    })
+```
+<a href='https://ifh.cc/v-ybys4P' target='_blank'><img src='https://ifh.cc/g/ybys4P.jpg' border='0'></a>
  개발순서
 
     1.소스수정
