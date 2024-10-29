@@ -15,7 +15,7 @@
  # openweathermap
 
     지정된 장소의 현재 날씨를 표시
-  <a href="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/" target="_blank" style="text-decoration: none; color: blue; font-weight: bold;">
+  <a href="https://api.openweathermap.org/data/2.5/weather?q=london&units=metric&appid=7d96bc5108f52b80e2d9075a369b9f35" target="_blank" style="text-decoration: none; color: blue; font-weight: bold;">
         실습해보기
     </a>
 
@@ -114,7 +114,7 @@ git config --global user.name "name" git config --global user.email "email@naver
 # project1-2024
 2021143009_정성환
 
-2024-2학기 캡스톤프로젝트1 중간시험 대체 과체
+2024-2학기 캡스톤프로젝트1 중간시험 대체 과제
 
 구글 비전 API를 사용하여 이미지를 업로드하고 얼굴 감지 및 감정 분석을 수행하는 HTML, JavaScript, CSS를 포함시켜 만든 웹 페이지 입니다.
 이미지 분석을 하면 analyze 함수가 구글 비전 API에 POST 요청을 보내 얼굴 감지 결과를 받아와 분석하여 결과를 출력하게끔 했습니다.
