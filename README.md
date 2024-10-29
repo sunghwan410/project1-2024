@@ -3,11 +3,6 @@
  2024-2학기 캡스톤 프로젝트 수업
  OpenAPI를 사용한 인공지능 시스템 실습
 
-    [URL=https://ifh.cc/v-9yzjqC][IMG]https://ifh.cc/g/9yzjqC.jpg[/IMG][/URL]
-
-
-
-
 
 
 
@@ -23,7 +18,7 @@
 "https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/"
 
 
-    [실습해보기]("https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/")
+    
  # openAI
 
  # google cloud vision
