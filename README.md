@@ -15,7 +15,8 @@
  # openweathermap
 
     지정된 장소의 현재 날씨를 표시
-'https://api.openweathermap.org/data/2.5/weather?q=london&units=metric&appid=7d96bc5108f52b80e2d9075a369b9f35'
+<a href="https://api.openweathermap.org/data/2.5/weather?q=london&units=metric&appid=7d96bc5108f52b80e2d9075a369b9f35" tarh=get="_blank" style="text-decoration: none; color:blue; font-weight: bold;">
+     실습해보기 <hr>
 
 ```javascript
 $.ajax({
@@ -32,7 +33,7 @@ $.ajax({
  # openAI
 chatGPT API키 활용하여 질의응답
 <a href="https://platform.openai.com/docs/overview" target="_blank" style="text-decoration: none; color: blue; font-weight: bold;">
-        OpenAI API 실습해보기
+        OpenAI API 실습해보기 <hr>
     </a>
 ```javascript
   $.ajax({
