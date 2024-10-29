@@ -15,7 +15,7 @@
  # openweathermap
 
     지정된 장소의 현재 날씨를 표시
-"https://api.openweathermap.org/data/2.5/find?"
+'https://api.openweathermap.org/data/2.5/weather?q=london&units=metric&appid=7d96bc5108f52b80e2d9075a369b9f35'
 
 
     
