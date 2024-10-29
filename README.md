@@ -1,3 +1,45 @@
+
+ # project1-2024
+ 2024-2학기 캡스톤 프로젝트 수업
+ OpenAPI를 사용한 인공지능 시스템 실습
+
+    <img src="https://ifh.cc/g/9yzjqC.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # openweathermap
+
+    지정된 장소의 현재 날씨를 표시
+"https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/"
+
+
+    [실습해보기]("https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/")
+ # openAI
+
+ # google cloud vision
+
+ 개발순서
+
+    1.소스수정
+    2.소스 저장
+    3.스테이지
+    4.커밋에 푸쉬
+    5.커밋메시지
+
+
+
+
+=======
 # project1-2024
 2021143009_정성환
 
