@@ -97,10 +97,13 @@ $.ajax({
     4.커밋에 푸쉬
     5.커밋메시지
 
+깃 설정
+
+git config --global user.name "name" git config --global user.email "email@naver.com"
+
+2024-09-19 깃허브 연동수업 로컬에서 편집함
 
 
-
-=======
 # project1-2024
 2021143009_정성환
 
