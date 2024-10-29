@@ -30,7 +30,8 @@ $.ajax({
 ```
    <a href='https://ifh.cc/v-pPh9SM' target='_blank'><img src='https://ifh.cc/g/pPh9SM.png' border='0'></a>
  # openAI
-chatGPT API키 활용하여 질의응답[실습해보기]("https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/")
+chatGPT API키 활용하여 질의응답
+[실습해보기]("https::platform.openai.com/docs/overview)<br>
 ```javascript
   $.ajax({
         type:"POST",
