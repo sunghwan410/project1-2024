@@ -31,7 +31,9 @@ $.ajax({
    <a href='https://ifh.cc/v-pPh9SM' target='_blank'><img src='https://ifh.cc/g/pPh9SM.png' border='0'></a>
  # openAI
 chatGPT API키 활용하여 질의응답
-[실습해보기]("https::platform.openai.com/docs/overview)<br>
+<a href="https://platform.openai.com/docs/overview" target="_blank" style="text-decoration: none; color: blue; font-weight: bold;">
+        OpenAI API 실습해보기
+    </a>
 ```javascript
   $.ajax({
         type:"POST",
