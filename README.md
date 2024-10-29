@@ -15,7 +15,7 @@
  # openweathermap
 
     지정된 장소의 현재 날씨를 표시
-"https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/"
+"https://api.openweathermap.org/data/2.5/find?"
 
 
     
