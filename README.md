@@ -16,7 +16,7 @@
 
     지정된 장소의 현재 날씨를 표시
 <a href="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/" target="_blank" style="text-decoration: none; color: blue; font-weight: bold;">
-        실습해보기<hr>
+        실습해보기
 
 ```javascript
 $.ajax({
