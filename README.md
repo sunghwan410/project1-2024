@@ -28,7 +28,7 @@ $.ajax({
          alert("!/js/user.js에서 에러발생: " + error.statusText);
       });
 ```
-    <a href='https://ifh.cc/v-pPh9SM' target='_blank'><img src='https://ifh.cc/g/pPh9SM.png' border='0'></a>
+    https://ifh.cc/g/pPh9SM.png
  # openAI
 
  # google cloud vision
